@@ -2,11 +2,11 @@ import React, { useEffect, useState, useRef } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 import PhoneInput from "react-phone-input-2";
 import { toast } from 'react-toastify';
 import FormErrorMessage from "../FormErrorMessage/FormErrorMessage";
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 
 // Form Validation Schema
 const contactFormValidationSchema = Yup.object({
@@ -47,7 +47,7 @@ const ContactFormModal: React.FC<ModalContactFormProps> = ({ onSuccess, id }) =>
   const [isSubmitting, setIsSubmitting] = useState(false);
   const NEXT_PUBLIC_FRONTEND_URL = process.env.NEXT_PUBLIC_FRONTEND_URL;
   const inputRef = useRef<HTMLInputElement | null>(null);
-  const currentUrl = usePathname();
+  const currentUrl = router.asPath;
 
   const getGeoInfo = () => {
     axios

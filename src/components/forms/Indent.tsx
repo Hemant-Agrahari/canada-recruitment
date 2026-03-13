@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import PhoneInput from "react-phone-input-2";
 import { toast } from "react-toastify";
 import FormErrorMessage from "../FormErrorMessage/FormErrorMessage";
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 
 const welcomeFormValidationSchema = Yup.object({
     fullName: Yup.string().required("Full Name is required"),
@@ -44,7 +44,7 @@ const WelcomeModal: React.FC<WelcomeModalProps> = ({ show, handleClose }) => {
     const [selectedCountry, setSelectedCountry] = useState<any>(null);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const inputRef = useRef<HTMLInputElement | null>(null);
-    const currentUrl = usePathname();
+    const currentUrl = router.asPath;
     const getGeoInfo = () => {
         axios
             .get("https://ipapi.co/json/")

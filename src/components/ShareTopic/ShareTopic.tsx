@@ -1,8 +1,9 @@
-import { usePathname } from "next/navigation";
+import { useRouter } from "next/router";
 import Image from "next/image";
 
 export default function ShareTopic() {
-    const pathname = usePathname();
+    const router = useRouter();
+    const pathname = router.asPath;
     const baseUrl = process.env.NEXT_PUBLIC_FRONTEND_URL || "https://www.alliancerecruitmentagency.ca";
     const pageUrl = `${baseUrl}${pathname}`;
 

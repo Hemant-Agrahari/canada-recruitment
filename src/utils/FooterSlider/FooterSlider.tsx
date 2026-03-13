@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 // Define an interface for the slider data
 interface SliderItem {
   text: string;
@@ -78,7 +79,7 @@ export const FooterSlider: React.FC = () => {
               {selectedLanguage.map((item, index) => (
                 <div className="item" key={index}>
                   <Link className="marker-hover" href={item.url}>
-                    <i className="fas fa-map-marker-alt"></i> {item.text}
+                    <FaMapMarkerAlt className="me-1" /> {item.text}
                   </Link>
                 </div>
               ))}

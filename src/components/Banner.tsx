@@ -43,10 +43,9 @@ const Banner: React.FC<BannerProps> = memo(
             <Image
               src={backgroundImage}
               alt={alt || "Banner Background"}
-              layout="fill"
-              // objectFit="cover"
-              loading="eager"
-              quality={90} // Optional quality control
+              fill
+              priority
+              quality={90}
             />
           </div>
 

@@ -2,10 +2,10 @@ import React, { useEffect, useState, useRef } from "react";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 import PhoneInput from "react-phone-input-2";
 import { toast } from 'react-toastify';
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 import FormErrorMessage from "../FormErrorMessage/FormErrorMessage";
 
 // Form Validation Schema
@@ -44,7 +44,7 @@ const BlogContactForm: React.FC<ModalContactFormProps> = ({ onSuccess, apiEndpoi
     const [isSubmitting, setIsSubmitting] = useState(false);
     const NEXT_PUBLIC_FRONTEND_URL = process.env.NEXT_PUBLIC_FRONTEND_URL;
     const inputRef = useRef<HTMLInputElement | null>(null);
-    const currentUrl = usePathname();
+    const currentUrl = router.asPath;
 
     const getGeoInfo = () => {
         axios
@@ -69,7 +69,7 @@ const BlogContactForm: React.FC<ModalContactFormProps> = ({ onSuccess, apiEndpoi
         return () => clearTimeout(delayedFetch);
     }, []);
 
-    const pathname = usePathname();
+    const pathname = router.asPath;
 
     useEffect(() => {
         if (!pathname) return;

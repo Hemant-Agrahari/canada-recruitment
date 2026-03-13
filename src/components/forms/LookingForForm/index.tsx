@@ -10,11 +10,11 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaSkype } from "react-icons/fa";
 import { FaBook } from "react-icons/fa";
 import { RiUserSearchFill } from "react-icons/ri";
-import {  usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 
 const LookingFor = () => {
   const router = useRouter();
-  const pathname = usePathname();
+  const pathname = router.asPath;
   const [selected, setSelected] = useState(false);
   const [contact, setContact] = useState(false);
   const [jobsheekhar, setJobsheekhar] = useState(false);

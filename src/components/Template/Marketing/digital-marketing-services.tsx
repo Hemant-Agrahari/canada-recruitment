@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
-import { usePathname, useRouter } from "next/navigation";
+import { useRouter } from "next/router";
 import {
   Card,
   MarketingTemplateFormData,
@@ -67,7 +67,7 @@ const ContactForm: React.FC<{ id: string }> = ({ id }) => {
   const [countryCode, setCountryCode] = useState<string>("");
   const NEXT_PUBLIC_FRONTEND_URL = process.env.NEXT_PUBLIC_FRONTEND_URL;
   const inputRef = useRef<HTMLInputElement | null>(null);
-  const currentUrl = usePathname();
+  const currentUrl = router.asPath;
 
 
   const getGeoInfo = () => {

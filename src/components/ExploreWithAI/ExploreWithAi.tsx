@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { usePathname } from "next/navigation";
+import { useRouter } from "next/router";
 
 interface ExploreWithAIProps {
     postUrl: string;
@@ -7,7 +7,8 @@ interface ExploreWithAIProps {
 }
 
 const ExploreWithAI = ({ postTitle }: ExploreWithAIProps) => {
-    const pathname = usePathname();
+    const router = useRouter();
+    const pathname = router.asPath;
     const baseUrl = process.env.NEXT_PUBLIC_FRONTEND_URL || "https://www.alliancerecruitmentagency.ca";
     const pageUrl = `${baseUrl}${pathname}`;
 
