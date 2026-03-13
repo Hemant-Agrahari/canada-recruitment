@@ -1,2 +1,0 @@
-/**handles:wdm_render_recaptcha**/
-jQuery(window).load(function(){var e=jQuery('div[id^="wdm-nocapt-recapt-id"]').length;e>0&&jQuery.each(jQuery('div[id^="wdm-nocapt-recapt-id"]'),function(){var e=jQuery(this).attr("id"),t=jQuery(this).attr("theme"),r=grecaptcha.render(e,{sitekey:wdm_recaptcha.sitekey,theme:t})})});
