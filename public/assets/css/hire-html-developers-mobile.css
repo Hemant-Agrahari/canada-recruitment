@@ -1,0 +1,556 @@
+.com-para a {
+  font-weight: bold;
+  color: #00aff0;
+}
+
+@media only screen and (max-width: 1380px) {
+  section {
+    padding: 50px 0px;
+  }
+  .main-banner h1{
+    font-size: 39px;
+  }
+  
+  h2.com-title {
+    font-size: 39px;
+  }
+  .what-clients-say h2.section-title{
+    font-size: 39px;
+  }
+  .faq-section h2.com-title{
+    font-size: 39px;
+  }
+  .hire-dedicated .com-title{
+    font-size: 39px;
+  }
+  .end-to-end-services .end-to-end-services-left .section-title,
+  .what-we-offer .section-title,
+  .service h2.com-titles{
+    font-size: 39px;
+  }
+  .contact-us-footer h3.com-titles {
+    font-size: 70px;
+  }
+  .industries-we-serve h2.com-title,
+  .schedule-consultation-content h2.section-title,
+  .meet-your-project-requirements h2.com-titles{
+    font-size: 39px;
+  }
+  .col-margin-top-hire-dedicated {
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-banner h1 .red-text {
+    font-size: 70px;
+  }
+  .main-banner h1{
+    font-size: 37px;
+  }
+  
+  h2.com-title {
+    font-size: 37px;
+  }
+  .what-clients-say h2.section-title{
+    font-size: 37px;
+  }
+  .faq-section h2.com-title{
+    font-size: 37px;
+  }
+  .service .service-card .service-title {
+    font-size: 24px;
+  }
+  .contact-us-footer h3.com-titles {
+    font-size: 55px;
+    margin-bottom: 15px;
+  }
+
+  .hire-dedicated .com-title{
+    font-size: 37px;
+  }
+  .end-to-end-services .end-to-end-services-left .section-title,
+  .what-we-offer .section-title,
+  .service h2.com-titles,
+  .meet-your-project-requirements h2.com-titles{
+    font-size: 37px;
+  }
+  .industries-we-serve h2.com-title,
+  .schedule-consultation-content h2.section-title{
+    font-size: 37px;
+  }
+
+  .meet-your-project-requirements .inner-card .small-title {
+    font-size: 35px;
+  }
+
+
+}
+@media only screen and (max-width: 991px) {
+  .order-2-in-mob {
+    order: 2;
+  }
+  .order-1-in-mob {
+    order: 1;
+  }
+  .main-banner .banner-right-img .main-img,
+  .main-banner .banner-right-img {
+    display: none;
+  }
+
+  .main-banner {
+    padding: 30px 0px;
+  }
+
+  .main-banner .text-content {
+    text-align: center;
+  }
+  .main-banner h1 {
+    font-size: 42px;
+  }
+  .main-banner h1 .text-bold,
+  .main-banner h1 .normal-text {
+    font-size: 60px;
+  }
+
+  .boxes-wrapper .box-design {
+    margin-top: 30px !important;
+  }
+
+  .scroll-text-section .scroller .main-text .black-text,
+  .scroll-text-section .scroller .main-text .red-text {
+    font-size: 50px;
+  }
+
+  .main-slider-wrapper {
+    padding: 50px 0px;
+  }
+
+  .service {
+    padding: 50px 0px;
+  }
+
+  footer {
+    padding-top: 50px;
+  }
+
+  .blogs .image-content {
+    width: 100% !important;
+  }
+
+  .two-box-section p.com-para {
+    padding-left: 0px;
+  }
+
+  h2.com-titles {
+    text-align: start !important;
+  }
+  .company-slider .item {
+    height: auto;
+  }
+  .what-clients-say .bottom-link{
+    text-align: start;
+    margin-top: 15px;
+  }
+  .our-best-social-media-markting .c-none-992 {
+    display: none;
+  }
+  .our-best-social-media-markting .best-social-media-inner {
+    gap: 15px;
+  }
+  .col-margin-top-hire-dedicated {
+    margin-top: 30px;
+  }
+  .col-margin-top-hire-dedicated:nth-child(odd) {
+    margin-top: 30px;
+  }
+  .end-to-end-services .end-to-end-services-left .section-title, 
+  .what-we-offer .section-title, .service h2.com-titles{
+    font-size: 33px;
+  }
+  .hire-dedicated .com-title{
+    margin-bottom: 0;
+  }
+  section.what-we-offer h2.section-title {
+    margin-top: 20px;
+  }
+  section {
+    padding: 20px 0px;
+  }
+
+
+  /* .end-to-end-services-right{
+    margin-top: 50px;
+  } */
+
+  .end-to-end-services .bottom-link {
+    display: inline-block;
+  }
+
+}
+@media only screen and (max-width: 767px) {
+  .main-banner h1 {
+    font-size: 40px;
+  }
+  h2.com-title {
+    font-size: 25px;
+  }
+
+  .what-clients-say h2.section-title{
+    font-size: 25px;
+  }
+  .what-clients-say{
+    padding: 0;
+  }
+  .faq-section h2.com-title{
+    font-size: 25px;
+  }
+  .what-clients-say-cardbody h4{
+    font-size: 20px;
+  }
+  section.industries-we-serve .owl-carousel .owl-nav button.owl-prev, 
+  section.industries-we-serve .owl-carousel .owl-nav button.owl-next,
+  section.our-success-story .owl-carousel .owl-nav button.owl-prev, 
+  section.our-success-story .owl-carousel .owl-nav button.owl-next {
+    width: 40px;
+    height: 40px;
+  }
+  
+  section.our-success-story .owl-nav,
+  section.industries-we-serve .owl-nav{
+    top: -45px;
+  }
+  section.our-success-story button img,
+  section.industries-we-serve button img {
+    width: 32px;
+  }
+  .faq-section .accordion-item .accordion-button{
+    font-size: 20px;
+  }
+  .blogs .com-para {
+    font-size: 20px;
+  }
+  .container-inner .review-link{
+    font-size: 20px;
+  }
+  .our-success-story-content-left h4{
+    font-size: 20px;
+  }
+  .our-best-social-media-markting .best-social-media-inner .right-inner-content .inner-desc {
+    order: 2;
+  }
+  .our-best-social-media-markting .best-social-media-inner .right-inner-content img {
+    transform: rotate(0deg);
+    order: 1;
+  }
+  .our-best-social-media-markting .best-social-media-inner .right-inner-content {
+    text-align: left;
+  }
+  .what-we-offer .we-offer-ul li .icon-point {
+    min-width: 50%;
+  }
+  .our-best-social-media-markting .best-social-media-inner .small-title{
+    font-size: 20px;
+  }
+  .schedule-consultation-content h2.section-title,
+  .industries-we-serve h2.com-title,
+  .what-we-offer .section-title,
+  .end-to-end-services .end-to-end-services-left .section-title,
+  h2.com-titles,
+  .hire-dedicated .com-title,
+  .meet-your-project-requirements h2.com-titles {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .contact-us-footer h3.com-titles {
+    font-size: 49px;
+  }
+  .end-to-end-services .end-to-end-services-left .section-title, .what-we-offer .section-title, .service h2.com-titles{
+    font-size: 25px;
+  }
+  .end-to-end-services-right-box h4{
+    font-size: 20px;
+  }
+
+  .what-we-offer .we-offer-ul li span {
+    font-size: 22px;
+  }
+  
+  .meet-your-project-requirements .inner-card .small-title {
+    font-size: 33px;
+  }
+
+  .meet-your-project-requirements .inner-card p.com-para {
+    min-height: 50px;
+  }
+
+  .industries-we-serve-cardbody ul {
+    gap: 15px;
+  }
+
+  .industries-we-serve-cardbody img {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  .industries-we-serve-cardbody ul p{
+    line-height: 18px;
+    font-size: 12px;
+  }
+  .industries-we-serve-cardbody ul h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+}
+@media only screen and (max-width: 576px) {
+  .blogs .image-content {
+    margin-top: 50px;
+  }
+  .form-buttons {
+    gap: 10px;
+  }
+  .scroll-text-section .scroller .main-text .black-text,
+  .scroll-text-section .scroller .main-text .red-text {
+    font-size: 30px;
+  }
+  .form-buttons a.btn {
+    min-width: auto;
+    flex: 1 1 auto;
+    font-size: 15px;
+  }
+
+  .service .service-card {
+    padding: 30px;
+  }
+
+  .main-banner h1 .red-text,
+  .main-banner h1 .text-bold,
+  .main-banner h1 .normal-text {
+    font-size: 50px;
+  }
+
+  .contact-us-wrapper {
+    justify-content: start;
+    gap: 35px 46px;
+  }
+
+  .boxes-wrapper .box-design {
+    margin-top: 30px !important;
+
+  }
+
+  .main-banner {
+    padding-top: 0px;
+  }
+
+  .scroll-text-section {
+    padding: 70px 0px;
+  }
+
+  h2.com-titles {
+    margin-bottom: 20px;
+  }
+
+  .company-slider .owl-item {
+    margin-right: 20px !important;
+  }
+
+  .company-slider .item::before {
+    display: none;
+  }
+
+  .contact-us-footer p.content-text,
+  .container-inner .review-box .review-text,
+  .blogs .com-para {
+    font-size: 16px;
+  }
+
+  .contact-us-footer p.content-text {
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+
+  .contact-us-wrapper .contact-box .con-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .service,
+  .main-slider-wrapper {
+    padding: 20px 0px;
+  }
+
+  .company-slider.owl-carousel .owl-item img {
+    height: auto;
+  }
+  .scroll-text-section .slider-main .slick-slider .slick-list {
+    height: 250.778px !important;
+    padding: 60px 0px !important;
+  }
+
+  .inner-image .image-content .img-wrapper {
+    width: 90%;
+    margin: 0px auto 20px auto;
+  }
+
+  .our-success-story-content-left ul.description-info li {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .contact-us-footer .sm-title{
+    font-size: 27px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-banner h1 {
+    font-size: 40px;
+  }
+  h2.com-title {
+    font-size: 27px;
+  }
+  .faq-section h2.com-title{
+    font-size: 27px;
+  }
+  .what-we-offer .we-offer-ul li{
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .our-success-story-content-left {
+    padding: 10px 5px;
+  }
+  .our-success-story-content-left p {
+    margin-top: 10px;
+  }
+  .our-success-story-content-left h4{
+    margin-bottom: 10px;
+  }
+  section.industries-we-serve .owl-carousel .owl-nav button.owl-next, 
+  section.our-success-story .owl-carousel .owl-nav button.owl-next {
+    margin-left: 10px;
+  }
+  .hire-dedicated .hire-dedicated-card{
+    padding: 15px;
+  }
+  .hire-dedicated-card .card-head .left-s img {
+    max-width: 100px;
+  }
+  .hire-dedicated .hire-dedicated-card .card-head .right-s .cate-wrap ul {
+    margin-top: 10px;
+  }
+  .hire-dedicated .hire-dedicated-card .card-head .right-s .cate-wrap ul li{
+    margin-top: 5px;
+    gap: 10px;
+    font-size: 16px;
+  }
+  .hire-dedicated .hire-dedicated-card .card-head .right-s .cate-wrap ul li{
+    font-size: 16px;
+  }
+
+  .bottom-link a {
+    padding: 12px 5%;
+    width: 100%;
+    text-align: center;
+  }
+
+  .why-choose-us .why-choose-inner-item p.com-para {
+    font-size: 16px;
+  }
+
+  .why-choose-us .why-choose-inner-item .item-img {
+    margin-left: -19px;
+    width: 40px;
+    height: 40px;
+  }
+  .why-choose-us .why-choose-inner-item{
+    gap: 18px;
+    margin-left: 15px;
+  }
+  .hire-dedicated .hire-dedicated-card .card-head .right-s .name {
+    font-size: 18px;
+  }
+  .hire-dedicated .hire-dedicated-card .card-head .right-s .tech-name{
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .hire-dedicated .hire-dedicated-card .card-head .right-s .cate-wrap ul li .car-value {
+    font-size: 16px;
+  }
+
+  .hire-dedicated-card .card-body p.com-para {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .hire-dedicated .hire-dedicated-card .card-footer .card-footer-1 div {
+    font-size: 16px;
+  }
+
+  .meet-your-project-requirements .inner-card h2.com-title {
+    margin-top: 12px;
+    margin-bottom: 22px;
+  }
+
+  .meet-your-project-requirements .inner-card .com-title span {
+    font-size: 28px;
+  }
+  .meet-your-project-requirements .inner-card h2.com-title {
+    font-size: 60px;
+  }
+
+  .main-banner .bottom-link a.bottom-link {
+    width: auto;
+  }
+
+  .end-to-end-services .bottom-link a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .end-to-end-services .bottom-link {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 390px) {
+  .end-to-end-services-right:before{
+    top: 8.2%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+    .scroll-text-section .scroller .main-text .black-text,
+    .scroll-text-section .scroller .main-text .red-text {
+      font-size: 25px;
+    }
+
+    section.industries-we-serve .owl-carousel .owl-nav button.owl-prev, 
+    section.industries-we-serve .owl-carousel .owl-nav button.owl-next,
+    section.our-success-story .owl-carousel .owl-nav button.owl-prev, 
+    section.our-success-story .owl-carousel .owl-nav button.owl-next {
+      width: 27px;
+      height: 27px;
+    }
+    section.industries-we-serve button img,
+    section.our-success-story button img {
+      width: 24px;
+    }
+    section.our-success-story .owl-nav,
+    section.industries-we-serve .owl-nav{
+      top: -38px;
+    }
+    .hire-dedicated .hire-dedicated-card .card-head .right-s .cate-wrap ul li{
+      flex-direction: column;
+      font-size: 16px;  
+      gap: 2px;
+    }
+    .hire-dedicated .hire-dedicated-card .card-head .right-s .cate-wrap ul li .car-value{
+      font-size: 16px;
+    }
+    .main-banner h1 {
+      font-size: 30px;
+    }
+}

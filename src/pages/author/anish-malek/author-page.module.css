@@ -1,0 +1,35 @@
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #034460;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 40px !important;
+    font-family: 'Outfit', sans-serif;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 4px;
+    background: var(--main-blue-color);
+    border-radius: 2px;
+}
+
+.author-blogs-section {
+    margin-top: 80px !important;
+}
+
+.loading-state,
+.no-blogs {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.no-blogs p {
+    font-size: 1.25rem;
+    color: #6c757d;
+}

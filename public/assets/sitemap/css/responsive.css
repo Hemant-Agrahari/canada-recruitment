@@ -1,0 +1,205 @@
+
+@media only screen and (min-width:1400px) {
+    .com-title {
+        font-size: 35px;
+    }
+
+    .hire-talent .hire-card .hire-title{
+        font-size: 35px;
+    }
+    
+    .com-text ,.mid-text-section .text-wrapper .right-side p,.induster-ul li, .industry-section p, .mid-text-section .text-wrapper .right-side p,.headhunting .icon-des h3, .induster-ul li, .industry-section p,.faq-section .accordion-header .accordion-button{
+        font-size: 20px
+    }
+
+
+    .s-title{
+        font-size: 18px;
+    }
+
+    header .top-header .right-side ul li a,.latest-update .inner-card .inner-body .date{
+        font-size: 15px;
+    }
+
+    .main-banner .banner-content h1{
+        font-size: 40px;
+    }
+
+    .main-banner .banner-content .banner-bottom-content .number{
+        font-size: 25px;
+    }
+
+    .main-banner .banner-content .social-media ul li a{
+        height: 50px;
+        width: 50px;
+    }
+
+    .com-btn,.accountant-hiring .a-h-btn{
+        font-size: 18px;
+    }
+
+    .latest-update .inner-card .inner-body .innertext{
+        font-size: 20px;
+    }
+
+    .main-banner .banner-content .right-side ul li a{
+        font-size: 18px;
+        min-width: 200px;
+    }
+}
+@media only screen and (max-width:1400px) {
+    .mid-text-section .hire-a-candidate-form .form-white-wrapper input{
+        padding: 10px 12px;
+    }
+}
+
+
+
+@media only screen and (max-width:992px) {
+    .com-title,.com-text{
+        text-align: center;
+    }
+    .accountant-hiring,  .accountant-hiring .text-end,.mid-text-section .text-wrapper .right-side p{
+        text-align: start!important;
+    }
+
+    .mid-text-section .text-wrapper .left-side::after{
+        display: none;
+    }
+
+
+    .c-pad-x{
+        padding: 0px 60px!important;
+    }
+}
+@media only screen and (max-width:1200px) {
+    header .top-header .right-side ul li a{
+        font-size: 11px;
+    }
+    header .top-header .right-side ul{
+        gap: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width:767px) {
+    .com-title,.main-banner .banner-content h1{
+        font-size: 25px;
+    }
+    .com-text ,.industry-section p,.induster-ul li ,.faq-section .accordion-button{
+        font-size: 12px;
+    }
+
+    .mid-text-section .text-wrapper .right-side p{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .mid-text-section .hire-a-candidate-form .form-white-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    .accountant-hiring{
+        padding: 50px 0px;
+    }
+    .accounting-section .com-btn{
+        display: flex;
+        justify-content: center;        
+        align-items: center;
+    }
+    .pt-100{
+        padding-top: 50px!important;
+    }
+    .pb-100{
+        padding-bottom: 50px!important;
+    }
+    .accounting-section, .headhunting{
+        padding: 50px 0px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .c-pad-x{
+        padding: 0px 30px!important;
+    }
+}
+
+@media only screen and (max-width:554px) {
+    .inner-con{
+        padding: 30px;
+    }
+    .overlap-img{
+        padding: 0px;
+    }
+
+    .main-banner .banner-content .banner-bottom-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .main-banner .banner-content h1{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .com-title{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .com-title,.com-text{
+        text-align: center;
+    }
+    .accountant-hiring,  .accountant-hiring .text-end,.mid-text-section .text-wrapper .right-side p{
+        text-align: start!important;
+    }
+
+    .mid-text-section .text-wrapper .left-side::after{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .com-title,.main-banner .banner-content h1{
+        font-size: 25px;
+    }
+    .com-text ,.industry-section p,.induster-ul li ,.faq-section .accordion-button{
+        font-size: 12px;
+    }
+
+    .mid-text-section .text-wrapper .right-side p{
+        font-size: 12px;
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+ 
+}
+
+@media only screen and (max-width:554px) {
+    .inner-con{
+        padding: 30px;
+    }
+    .overlap-img{
+        padding: 0px;
+    }
+
+    .main-banner .banner-content .banner-bottom-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .main-banner .banner-content h1{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .com-title{
+        font-size: 20px;
+    }
+}

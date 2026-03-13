@@ -1,0 +1,553 @@
+@media only screen and (min-width:991px) {
+    .mob-header {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1400px) {
+    .location-pg h2 {
+        font-size: 30px !important;
+    }
+    .com-text, .mid-text-section .text-wrapper .right-side p, .induster-ul li, .industry-section p, .mid-text-section .text-wrapper .right-side p, .headhunting .icon-des h3, .induster-ul li, .industry-section p, .faq-section .accordion-header .accordion-button {
+        font-size: 20px !important;
+    }
+    .story-img-c-level {
+        position: relative;
+        width: 100% !important;
+         /* height: 330px !important; */
+        overflow: hidden;
+    }
+
+    .story-img {
+        position: relative;
+        width: 100% !important;
+        height: 250px !important;
+        overflow: hidden !important;
+    }
+
+    .story-img-c-level-large {
+        position: relative;
+        width: 100%;
+        height: 370px !important;
+        overflow: hidden;
+    }
+
+    .services-section .com-text {
+        font-size: 15px;
+    }
+
+    .four-zero-four .four-zero {
+        font-size: 8vw !important;
+    }
+
+    .industrialul-li {
+        font-weight: normal !important;
+    }
+
+    .notice-pg .com-text {
+        font-size: 18px;
+    }
+
+    .location-pg .com-text {
+        font-size: 18px !important;
+    }
+
+    .com-title {
+        font-size: 35px ;
+    }
+
+    .life-s-title {
+        font-size: 30px ;
+    }
+
+    .hire-talent .hire-card .hire-title {
+        font-size: 20px;
+    }
+ 
+
+    .page-not-found h2 {
+        font-weight: 900;
+        background-image: linear-gradient(to right top, #043846, #0d5280, #2f32ff, #46b1c4, #0da2b6);
+        background-size: 50% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 8vw;
+        animation: gradientAnim 7.5s ease alternate infinite;
+        margin-bottom: 0px !important;
+    }
+
+    .s-title {
+        font-size: 18px !important;
+    }
+
+    .hire-candidate-s-title {
+        font-size: 18px !important;
+    }
+
+    header .top-header .right-side ul li a,
+    .latest-update .inner-card .inner-body .date {
+        font-size: 15px;
+    }
+
+    .main-banner .banner-content h1 {
+        font-size: 40px;
+    }
+
+    .main-banner .banner-content .banner-bottom-content .number {
+        font-size: 25px;
+    }
+
+    .main-banner .banner-content .social-media ul li a {
+        height: 50px;
+        width: 50px;
+    }
+
+    .com-btn,
+    .accountant-hiring .a-h-btn {
+        font-size: 18px;
+    }
+
+    .latest-update .inner-card .inner-body .innertext {
+        font-size: 20px;
+    }
+
+    .main-banner .banner-content .right-side ul li a {
+        font-size: 18px;
+        min-width: 200px;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+    .mid-text-section .hire-a-candidate-form .form-white-wrapper input {
+        padding: 10px 12px;
+    }
+}
+
+@media only screen and (max-width:1500px) {
+    .com-text,
+    .mid-text-section .text-wrapper .right-side p,
+    .induster-ul li,
+    .industry-section p,
+    .mid-text-section .text-wrapper .right-side p,
+    .headhunting .icon-des h3,
+    .induster-ul li,
+    .industry-section p,
+    .faq-section .accordion-header .accordion-button {
+        font-size: 20px
+    }
+}
+
+
+
+@media only screen and (max-width:992px) {
+    /* Hide fixed CTA buttons on mobile and tablet */
+    .fixed-cta-button,
+    .fixed-cta-btn {
+        display: none !important;
+    }
+
+    .com-title,
+    .com-text {
+        text-align: center;
+    }
+
+    .accountant-hiring,
+    .accountant-hiring .text-end,
+    .mid-text-section .text-wrapper .right-side p {
+        text-align: center !important;
+    }
+
+    .mid-text-section .text-wrapper .left-side::after {
+        display: none;
+    }
+
+
+    .c-pad-x {
+        padding: 0px 60px;
+    }
+
+    .c-order-992-2 {
+        order: 2;
+    }
+
+    .c-order-992-1 {
+        order: 1;
+    }
+
+    .hire-talent .hire-card .hire-title {
+
+        min-height: unset !important;
+    }
+
+    .com-btn {
+        padding: 10px 20px !important;
+        white-space: nowrap;
+    }
+
+    .d-none_image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    /* ------------------ */
+header .contact-content img {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+header .contact-content .com-pera {
+    font-size: 13px;
+    /* color: #fff; */
+    color: #000;
+    font-weight: 600 !important;
+    line-height: 14.35px !important;
+    margin-left: 6px;
+}
+
+header .contact-content {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex; 
+    align-items: center;
+    -webkit-align-content: center;
+}
+
+header .contact-content .phone-icon {
+    padding-right: 6px;
+}
+
+header .country-numbers {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+    justify-content: space-between;
+    /* -webkit-justify-content: center; */
+    margin-top: 15px;
+}
+.contact-content .phone-icon img {
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+}
+}
+
+@media only screen and (max-width:1280px) {
+
+    .hire-talent .hire-card .hire-title {
+
+        min-height: 65px;
+    }
+
+    .com-btn {
+
+        padding: 10px 10px;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    header .top-header .right-side ul li a {
+        font-size: 11px;
+    }
+
+    header .top-header .right-side ul {
+        gap: 10px;
+    }
+
+    .accountant-hiring .a-h-btn {
+        padding: 13px 13px;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width:767px) {
+
+    .com-title,
+    .main-banner .banner-content h1 {
+        font-size: 32px;
+    }
+
+    .com-text,
+    .industry-section p,
+    .induster-ul li,
+    .faq-section .accordion-button {
+        font-size: 18px;
+
+    }
+
+    .mid-text-section .text-wrapper .right-side p {
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    .mid-text-section .hire-a-candidate-form .form-white-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .accountant-hiring {
+        padding: 50px 0px;
+    }
+
+    .accounting-section .com-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pt-100 {
+        padding-top: 30px !important;
+    }
+
+    .pb-100 {
+        padding-bottom: 30px !important;
+    }
+
+    .accounting-section,
+    .headhunting {
+        padding: 50px 0px;
+    }
+
+    .main-banner .banner-content .banner-bottom-content .flag-img {
+        width: 24px;
+        height: auto;
+    }
+
+    .main-banner .banner-content .phone-icon img {
+        max-width: 19px;
+        max-height: 20px;
+        object-fit: contain;
+    }
+
+    .main-banner .banner-content .banner-bottom-content .number {
+        color: #fff;
+        display: inline-block;
+        padding-left: 10px;
+        font-size: 16px;
+    }
+
+    .main-banner .banner-content .banner-bottom-content {
+        margin-top: 8px;
+        margin-bottom: 20px;
+
+    }
+    .hire-talent{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .c-pad-x {
+        padding: 0px 10px !important;
+    }
+
+    .hire-talent .hire-card .hire-title {
+        text-transform: capitalize;
+        color: var(--text-color);
+        font-size: 20px;
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+
+    .hire-talent,
+    .latest-update,
+    .mid-text-section,
+    .accounting-section,
+    .headhunting {
+        padding: 30px 0;
+
+    }
+
+
+}
+
+@media only screen and (max-width:554px) {
+    .inner-con {
+        padding: 30px;
+    }
+
+    .overlap-img {
+        padding: 0px;
+    }
+
+    .main-banner .banner-content .banner-bottom-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .main-banner .banner-content .banner-bottom-content .left-side {
+
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .main-banner .banner-content .social-media ul {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .main-banner .banner-content h1 {
+        text-align: center;
+    }
+
+
+
+    .hire-talent .hire-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hire-talent .hire-card .hire-title {
+        text-transform: capitalize;
+        color: #000;
+        font-size: 20px;
+        margin-bottom: 17px;
+        font-weight: 600;
+    }
+
+    .com-btn {
+        padding: 6px 8px;
+        font-size: 13px;
+
+    }
+
+    .com-text,
+    .industry-section p,
+    .induster-ul li,
+    .faq-section .accordion-button {
+        font-size: 14px !important;
+        line-height: 1.7 !important;
+        text-align: left;
+        color: #1D1B34;
+    }
+
+    .accountant-hiring .a-h-btn {
+        display: inline-block;
+        padding: 13px 35px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        text-transform: capitalize;
+        color: #fff;
+    }
+
+    .com-title {
+        font-size: 20px;
+        text-align: left;
+        color: #000;
+        margin-bottom: 0;
+    }
+
+    .com-text strong {
+        color: #000;
+    }
+
+    .mid-text-section .hire-a-candidate-form .form-white-wrapper .contactUsSubmit {
+        width: 100%;
+    }
+
+    .looking-for-ac .com-title {
+        text-align: center !important;
+    }
+
+    .looking-for-ac .com-text {
+        text-align: center !important;
+    }
+
+    .looking-for-ac {
+        padding: 30px 0;
+    }
+
+    .d-none_image {
+        display: none !important;
+    }
+
+    .main-banner .banner-content .banner-bottom-content .right-side ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-banner .banner-content .banner-bottom-content .right-side ul li {
+        margin: 0 5px;
+    }
+}
+
+@media only screen and (max-width:450px) {
+
+
+    .g-recaptcha {
+        transform: scale(0.7);
+        transform-origin: 0 0;
+    }
+
+
+}
+
+@media only screen and (max-width:320px) {
+    .com-title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .footer-copy-right p {
+        font-size: 18px;
+    }
+
+
+    .footer-copy-right p {
+        font-size: 15px;
+    }
+
+    footer .footer-bottom .footer-head {
+      
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: #494b4c;
+    }
+
+    footer .footer-bottom .top-place-service a {
+        border-radius: 100px;
+        color: #000;
+        padding: 8px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        position: relative;
+    }
+
+    footer .footer-inner .footer-right-wrapper .footer-right-content .footer-text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        text-transform: capitalize;
+        color: #494b4c;
+    }
+
+    .contact-us-custom .hire-a-candidate-form .form-white-wrapper input {
+        height: 49px !important;
+    }
+}

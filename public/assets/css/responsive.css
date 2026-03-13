@@ -1,0 +1,899 @@
+@media only screen and (min-width: 1500px) {
+    /* header .header-wrapper .header-right-menu .bottom-menu .bottom-menu-nav .bottom-nav-li a {
+        font-size: 18px;
+        line-height: 18px;
+    } */
+
+    .footer-copy-right p {
+        font-size: 18px;
+    }
+
+    footer .footer-bottom .top-place-service a,
+    footer .footer-bottom .top-place-service a i {
+        font-size: 20px;
+    }
+
+    .com-pera,
+    .homepage-banner .home-inner .right-side .box-wrapper .box-desc {
+        font-size: 18px;
+    }
+
+    .homepage-banner .home-inner .left-side p.first-para,
+    footer .footer-bottom .footer-head {
+        font-size: 30px;
+    }
+
+    .homepage-banner .home-inner h1 {
+        font-size: 80px;
+        margin-bottom: 50px;
+    }
+
+    .homepage-banner .home-inner .left-side p.second-text,
+    .our-succes .succes-story-card .story-body .story-head {
+        font-size: 25px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper .box-head,
+    footer .footer-inner .footer-right-wrapper .footer-right-content .footer-text {
+        font-size: 25px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper a.box-btn {
+        font-size: 20px;
+        padding: 20px 25px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper {
+        padding: 30px;
+    }
+
+    .trust-section .trust-wrapper .left-side {
+        width: auto;
+    }
+
+    .trust-section .title-trust {
+        font-size: 24px;
+    }
+
+    h2.com-title {
+        font-size: 42px;
+    }
+
+    .hire-card .hire-title,
+    .tab-content-wrapper .left-ac .accordion-item .accordion-header button h4,
+    .tab-content-wrapper .right-content ul li span,
+    .best-talent .boxes-wrapper .box-inner-card .best-body .blue-text {
+        font-size: 24px;
+    }
+
+    .our-expert .inner-card .nav .nav-link .tab-title,
+    .best-talent .boxes-wrapper .box-inner-card .best-body .best-head {
+        font-size: 20px;
+    }
+
+    .our-expert .inner-card .tab-content-wrapper .content-head {
+        font-size: 30px;
+    }
+
+    .our-expert .inner-card .tab-content-wrapper .blue-btn,
+    .our-succestab .nav .nav-link,
+    .our-succestab .nav .nav-link h3 {
+        font-size: 22px;
+    }
+
+    .tab-content-wrapper .left-ac .accordion-item .accordion-header button .blue-count {
+        height: 37px;
+        width: 37px;
+        font-size: 24px;
+    }
+
+    .tab-content-wrapper .right-content ul li img {
+        height: 34px;
+        width: 34px;
+    }
+
+    .blue-btn {
+        font-size: 22px;
+    }
+
+    .trust-section .trust-wrapper .right-side ul {
+        gap: 35px;
+    }
+
+    .tab-content-wrapper .left-ac .accordion-item .accordion-header button h4 {
+        padding-left: 50px;
+    }
+
+    .tab-content-wrapper .left-ac .accordion-item .accordion-body {
+        padding-left: 70px;
+    }
+
+    .our-expert .inner-card .nav .nav-link {
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .homepage-banner .home-inner .right-side .box-wrapper {
+        height: 180px;
+        width: 440px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper.bg-prp {
+        margin-right: 180px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper.bg-gray {
+        margin-top: -70px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper a.box-btn {
+        margin-top: 0px;
+    }
+
+    .homepage-banner .home-inner::after {
+        top: 50px;
+        width: 55%;
+    }
+
+    .homepage-banner .home-inner h1 {
+        margin-top: 20px;
+    }
+
+    .homepage-banner .banner-img {
+        padding-left: 30px;
+    }
+
+    .blue-box p.com-pera {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {}
+
+@media only screen and (max-width: 1400px) {
+    .px-100 {
+        padding: 0px 80px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    footer .footer-inner .footer-right-wrapper .job-seeker-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .homepage-banner .home-inner .left-side p.second-text {
+        background-color: transparent;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper.bg-prp {
+        margin-top: -30px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper.bg-prp {
+        margin-right: 140px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper.bg-gray {
+        margin-top: -40px;
+    }
+
+    .our-expert .inner-card .nav .nav-link .tab-title {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .homepage-banner .home-inner .left-side p.second-text {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .com-pera {
+        font-size: 14px;
+        line-height: inherit !important;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper .box-desc {
+        white-space: unset;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper.bg-gray {
+        margin-top: 0;
+    }
+
+    .hire-card .hire-title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    .homepage-banner .home-inner h1 {
+        margin-bottom: 20px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper.bg-prp {
+        margin: 0px;
+    }
+
+    .homepage-banner .home-inner::after {
+        width: 100%;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper {
+        height: auto;
+    }
+
+    .homepage-banner .home-inner .right-side {
+        gap: 10px 0px;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .homepage-banner .banner-img {
+        display: none;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper {
+        width: 100%;
+    }
+
+    .trust-section .trust-wrapper {
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .trust-section .title-trust {
+        text-align: center;
+    }
+
+    .our-succes .our-succestab .nav .nav-link {
+        padding: 15px 40px;
+    }
+
+    .title-trust br {
+        display: none;
+    }
+
+    .trust-section .trust-wrapper .left-side {
+        width: 100%;
+    }
+
+    .homepage-banner .home-inner h1 {
+        font-size: 32px;
+        line-height: 44px;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    /* html,
+    body {
+        overflow-x: hidden;
+    } */
+.certifications,.Our-milestone {
+    overflow: hidden;
+}
+    .homepage-banner .home-inner .right-side .box-wrapper a.box-btn {
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 135px;
+        padding: 8px 8px;
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #000 !important;
+    }
+
+    footer .footer-inner .footer-right-wrapper .job-seeker-wrapper {
+        justify-content: flex-start !important;
+    }
+
+    .tab-content-wrapper .left-ac .accordion-item .accordion-header button .blue-count::after {
+        height: 70px;
+    }
+
+    .our-success-slider.owl-carousel .owl-stage-outer {
+        margin-top: 0px !important;
+    }
+
+    .d-none-block {
+        display: block;
+        margin: 0px;
+    }
+
+    .d-none-mo {
+        display: none;
+    }
+
+    .mobile-image {
+        text-align: center;
+        padding: 30px;
+    }
+
+    h2.com-title {
+        font-size: 25px;
+    }
+
+    .py-50 {
+        padding: 30px 0px;
+    }
+
+    .our-milestone-slider.owl-carousel .owl-nav .owl-prev,
+    .our-milestone-slider.owl-carousel .owl-nav .owl-next,
+    .certifications-slider.owl-carousel .owl-nav .owl-prev,
+    .certifications-slider.owl-carousel .owl-nav .owl-next,
+    .boxes-wrapper-slider.owl-carousel .owl-nav .owl-prev,
+    .boxes-wrapper-slider.owl-carousel .owl-nav .owl-next,
+    .our-success-slider.owl-carousel .owl-nav .owl-prev,
+    .our-success-slider.owl-carousel .owl-nav .owl-next {
+        bottom: unset;
+        top: unset;
+        left: unset;
+        position: relative;
+        transform: translate(0, 0);
+    }
+
+    .our-milestone-slider.owl-carousel .owl-nav .owl-next,
+    .certifications-slider.owl-carousel .owl-nav .owl-next,
+    .boxes-wrapper-slider.owl-carousel .owl-nav .owl-next {
+        left: unset;
+        right: unset;
+    }
+
+    .our-milestone-slider.owl-carousel .owl-nav,
+    .certifications-slider.owl-carousel .owl-nav,
+    .boxes-wrapper-slider.owl-carousel .owl-nav,
+    .our-success-slider.owl-carousel .owl-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 12px;
+    }
+
+    .our-success-slider.owl-carousel .owl-dots {
+        display: none;
+    }
+
+    .homepage-banner .home-inner h1 {
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 50%;
+    }
+
+    .our-succes .succes-story-card .story-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .our-succestab {
+        overflow-x: auto;
+        width: fit-content;
+    }
+
+    .our-succestab .nav .nav-link,
+    .our-succes .our-succestab .nav .nav-link {
+        padding: 9px 18px;
+        white-space: nowrap;
+        border-radius: 3px;
+    }
+
+    .our-succes .succes-story-card .story-body .story-head {
+        margin-bottom: 0px;
+        margin-top: 25px;
+    }
+
+    .px-100 {
+        padding: 0px 30px !important;
+    }
+
+    .our-expert .inner-card .nav:after {
+        display: none;
+    }
+
+    .trust-section .title-trust {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 20px;
+        margin-bottom: 26px;
+        color: #000;
+    }
+
+    .hire-count-mobile {
+        display: inline-flex;
+    }
+
+    .hiraing-made .hire-arrow-img {
+        display: none;
+    }
+
+    .hiraing-made .hire-card {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    .hiraing-made .hire-card .hire-desc {
+        padding-left: 30px;
+    }
+
+    .our-succes .our-succestab {
+        max-width: 340px;
+    }
+
+    .how-start .tab-content-wrapper .blue-btn {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 15px;
+        width: 100%;
+        height: 40px;
+        margin-top: 16px;
+        border-radius: 3px;
+    }
+
+    .di-none-mo,
+    .boxes-wrapper .owl-dots {
+        display: none !important;
+    }
+
+    .new-section .container .main-content h2 {
+        text-align: center !important;
+    }
+
+    .new-section .cta-btn {
+        padding: 0 10px;
+        font-size: 12px;
+        min-height: 40px;
+        line-height: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    :root {
+        --main-gray-color: #000;
+    }
+
+    .boxes-wrapper-slider.owl-carousel .owl-item:nth-child(2),
+    .di-none-mo {
+        display: none !important;
+    }
+
+    .our-expert .inner-card .nav .nav-link .tab-title {
+        font-size: 14px;
+    }
+
+    .boxes-wrapper-slider {
+        margin-top: 20px;
+    }
+
+    .trust-section {
+        padding: 20px 10px;
+    }
+
+    .our-milestone h2.com-title {
+        margin-bottom: 20px !important;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper {
+        padding: 15px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper .box-head {
+        font-size: 16px;
+    }
+
+    .homepage-banner .home-inner .left-side {
+        text-align: left;
+    }
+
+    .homepage-banner .home-inner {
+        padding: 40px 0px 0px 0px;
+    }
+
+    .homepage-banner .home-inner .left-side p.first-para {
+        font-size: 20px;
+    }
+
+    .homepage-banner .home-inner .left-side p.second-text {
+        text-align: center;
+    }
+
+    .home-inner .row.g-5 .col-lg-6+.col-lg-6 {
+        margin-top: 10px;
+    }
+
+    .trust-section .trust-wrapper .right-side {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .trust-section .trust-wrapper .right-side ul li img {
+        min-width: 100px;
+    }
+
+    .trust-section .title-trust,
+    h2.com-title {
+        font-size: 20px;
+
+    }
+
+    .trust-section .title-trust {
+        max-width: 250px;
+        white-space: break-spaces;
+        margin: auto;
+    }
+
+    .hiraing-made .com-title {
+        margin-bottom: 20px;
+    }
+
+    .hiraing-made {
+        padding: 20px 0px;
+    }
+
+    .our-expert .inner-card .tab-content-wrapper .blue-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .our-succestab .nav.nav-pills {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .how-start .our-succestab .nav.nav-pills {
+        padding-left: 160px;
+    }
+
+    .our-succes .succes-story-card .story-img .play-link {
+        height: 80px;
+        width: 80px;
+        bottom: -34px;
+        right: 0px;
+    }
+
+    .our-succes .succes-story-card .story-img .play-link img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .tab-content-wrapper .left-ac .accordion-item {
+        margin-bottom: 10px;
+    }
+
+    .d-none-mo {
+        display: none;
+    }
+
+    .d-none-block,
+    .boxes-wrapper-slider {
+        display: block;
+        margin: 0px;
+    }
+
+    .tab-content-wrapper .left-ac .accordion-item .accordion-body {
+        padding-right: 0px;
+    }
+
+    .best-talent .boxes-wrapper .box-inner-card .best-body .blue-text {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .best-talent .boxes-wrapper .box-inner-card .best-body {
+        padding: 35px 20px 20px 20px;
+    }
+
+    .best-talent .boxes-wrapper .box-inner-card .best-body .com-pera.my-3 {
+        margin-bottom: 0px !important;
+    }
+
+    .boxes-wrapper-slider .owl-dots {
+        display: none;
+    }
+
+    .certifications .com-pera {
+        text-align: left !important;
+    }
+
+    .px-100 {
+        padding: 0px 10px !important;
+    }
+
+    .our-succes .succes-story-card .story-body .story-head {
+        font-size: 16px;
+    }
+
+    .our-expert .inner-card {
+        margin-top: 0px;
+        border: 0px;
+        padding: 0px;
+        position: relative;
+    }
+
+    .our-expert .inner-card .tab-content-wrapper .content-head {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .our-expert .inner-card .tab-content-wrapper .blue-btn {
+        font-size: 12px;
+    }
+
+    .our-expert .inner-card .tab-content-wrapper {
+        padding: 0px;
+    }
+
+    .our-succes {
+        padding: 30px 0px;
+    }
+
+    .blue-btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px 40px;
+    }
+
+    .certifications .certifications-slider {
+        margin-top: 20px !important;
+    }
+
+    .certifications .certifications-slider .owl-dots {
+        display: none;
+    }
+
+
+    .our-expert .tab-pane {
+        position: absolute;
+        top: 90px;
+        left: 0;
+    }
+
+    .our-expert .tab-pane.tab-mo-2 {
+        top: 155px;
+    }
+
+    .our-expert .tab-pane.tab-mo-3 {
+        top: 235px;
+    }
+
+    .our-expert .tab-pane.tab-mo-4 {
+        top: 288px;
+    }
+
+    .our-expert .tab-pane.tab-mo-5 {
+        top: 330px;
+    }
+
+    .our-expert .tab-pane.tab-mo-6 {
+        top: 390px;
+    }
+
+    .our-expert .tab-pane.tab-mo-7 {
+        top: 470px;
+    }
+
+    .our-expert .tab-pane.tab-mo-8 {
+        top: 510px;
+    }
+
+    .our-expert .tab-pane.tab-mo-9 {
+        top: 570px;
+    }
+
+    .our-expert .tab-pane.tab-mo-10 {
+        top: 630px;
+    }
+
+    .our-expert .inner-card .nav .nav-link.active {
+        margin-bottom: 260px;
+    }
+
+    .our-expert .inner-card .nav #v-pills-messages-tab.nav-link.active {
+        margin-bottom: 350px;
+    }
+
+    .best-talent .boxes-wrapper .box-inner-card .best-body .best-head {
+        min-height: 48px;
+    }
+
+    .boxes-wrapper-slider.owl-carousel .owl-stage-outer {
+        padding: 0px !important;
+    }
+
+    .blue-box span.highlight-text {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #addSlides {
+        display: none;
+    }
+
+    .tab-content-wrapper .left-ac .accordion-item .accordion-header button .blue-count {
+        left: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 554px) {
+    .our-expert .inner-card .nav .nav-link {
+        font-size: 14px;
+    }
+
+    .tab-content-wrapper .right-content ul li span {
+        font-size: 14px;
+    }
+
+    h2.com-title {
+        font-size: 20px;
+    }
+
+    .our-expert .inner-card .nav .nav-link.active {
+        margin-bottom: 320px;
+    }
+
+    .our-expert .inner-card .nav .nav-link .tab-title {
+        font-size: 12px;
+    }
+
+    .our-expert .inner-card .nav .nav-link img {
+        height: 25px;
+        width: 25px;
+        margin-right: 5px;
+    }
+
+    .our-expert .tab-pane.tab-mo-3 {
+        top: 210px;
+    }
+
+    .our-expert .tab-pane.tab-mo-4 {
+        top: 268px;
+    }
+
+    .our-expert .tab-pane.tab-mo-7 {
+        top: 420px;
+    }
+
+    .our-expert .tab-pane.tab-mo-8 {
+        top: 490px;
+    }
+
+    .our-expert .tab-pane.tab-mo-9 {
+        top: 550px;
+    }
+
+    .our-expert .tab-pane.tab-mo-10 {
+        top: 590px;
+    }
+
+    .com-title {
+        text-align: center !important;
+    }
+    h2.com-title {
+       font-size: 20px !important;
+    }
+    .homepage-banner .home-inner::after {
+        width: 100%;
+        right: 0;
+        left: unset;
+        background-size: cover;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .our-expert .tab-pane.tab-mo-4 {
+        top: 250px;
+    }
+
+    .our-expert .tab-pane.tab-mo-3 {
+        top: 190px;
+    }
+
+    .our-expert .tab-pane.tab-mo-6 {
+        top: 370px;
+    }
+
+    .our-expert .inner-card .nav .nav-link.active {
+        margin-bottom: 340px;
+    }
+}
+
+@media only screen and (max-width: 362px) {
+    .our-expert .inner-card .nav #v-pills-home-tab.nav-link.active {
+        margin-bottom: 310px;
+    }
+
+    .our-expert .inner-card .nav #v-pills-profile-tab.nav-link.active {
+        margin-bottom: 300px;
+    }
+
+    .our-expert .tab-pane.tab-mo-2 {
+        top: 140px;
+    }
+
+    .our-expert .inner-card .nav #v-pills-messages-tab.nav-link.active {
+        margin-bottom: 360px;
+    }
+
+    .our-expert .inner-card .nav #v-pills-settings-tab-1.nav-link.active {
+        margin-bottom: 300px;
+    }
+
+    .our-expert .tab-pane.tab-mo-5 {
+        top: 300px;
+    }
+
+    .our-expert .inner-card .nav #v-pills-settings-tab-2.nav-link.active {
+        margin-bottom: 330px;
+    }
+
+    .our-expert .tab-pane.tab-mo-6 {
+        top: 360px;
+    }
+
+    .our-expert .tab-pane.tab-mo-8 {
+        top: 470px;
+    }
+
+    .our-expert .inner-card .nav #v-pills-settings-tab-4.nav-link.active {
+        margin-bottom: 290px;
+    }
+
+    .our-expert .tab-pane.tab-mo-9 {
+        top: 515px;
+    }
+
+    .our-expert .inner-card .nav #v-pills-settings-tab-5.nav-link.active {
+        margin-bottom: 310px;
+    }
+
+    .our-expert .tab-pane.tab-mo-10 {
+        top: 580px;
+    }
+
+    .our-expert .inner-card .nav #v-pills-settings-6.nav-link.active {
+        margin-bottom: 270px;
+    }
+
+    .homepage-banner .home-inner .right-side .box-wrapper a.box-btn {
+        width: 110px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .our-expert .inner-card .nav {
+        padding: 15px 0px;
+    }
+
+    .our-expert .inner-card .nav #v-pills-settings-tab-6.nav-link.active {
+        margin-bottom: 270px !important;
+    }
+
+    .tab-content-wrapper .right-content ul li {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .our-expert .inner-card .nav .nav-link.active {
+        margin-bottom: 400px;
+    }
+}

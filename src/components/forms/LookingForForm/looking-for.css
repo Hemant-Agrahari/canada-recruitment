@@ -1,0 +1,188 @@
+.radio-box{
+    background: #3e4095;
+    padding: 15px 15px 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px #e0e0e0;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 16px;
+}
+label.radio {
+    background-image: none;
+}
+.custom-radio {
+    font-family: "Signika";
+    background: transparent;
+    height: auto;
+    line-height: normal;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    overflow: visible;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.custom-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    margin-right: 0;
+    padding-right: 0px;
+    border: 2px solid #999;
+}
+.custom-radio .checkmark:after {
+    top: 6px;
+    left: 6px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #3e4095;
+    content: "";
+    position: absolute;
+    display: none;
+}
+.custom-radio .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    padding: 0;
+    background: rgb(229, 229, 229);
+    background: linear-gradient(to right, rgb(229, 229, 229) 0%, rgb(255, 255, 255) 100%);
+    border-radius: 50%;
+    border: 1px solid #afafaf;
+}
+ .custom-radio input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.job_seeker_listing ul {
+    margin: 0;
+    padding: 0;
+}
+.job_seeker_listing ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0 0px 0 30px;
+    position: relative;
+    color: #000;
+    font-size: 13px;
+    line-height: 26px;
+}
+.job_seeker_listing ul li:before {
+    content: "";
+    background: url(/assets/images/common/job_tick.png);
+    position: absolute;
+    left: 0;
+    top: 1px;
+    height: 26px;
+    width: 26px;
+    background-size: 100%;
+    background-position: center center;
+}
+.job-seeker-title {
+    font-size: clamp(16px,2.1vw,20px);
+    color: #3e4095;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+.btn-row a{
+    background: #33aae1;
+    border: none;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #fff;
+    transition: all ease-in-out 0.4s;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    display: block;
+    padding: 7px 20px 7px 10px;
+    margin-top: 12px;
+}
+.btn-row a:hover {
+    background: #303091;
+    color: #fff;
+}
+.looking-for-form-wrapper .content-list{
+    padding-top: 32px;
+display: flex;
+flex-direction: column;
+row-gap: 24px;
+}
+.looking-for-form-wrapper .content-list .form-row{
+display: none;
+}
+.form-box-wrapper{
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px 10px;
+}
+.form-box-wrapper  input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    outline: none;
+    font-size: 13px;
+    margin-bottom: 10px !important;
+    padding: 8px 10px 8px 25px;
+    border-bottom: 2px solid #e6e6e6;
+    width: 100%;
+}
+.form-box-wrapper .sbmt-box{
+margin-top: 24px;
+display: flex;
+justify-content: center;
+
+}
+
+.form-box-wrapper .sbmt-box input{
+    margin-top: 0;
+    background: #303091;
+    color: #fff;
+    font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    border: none;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 20px;
+    min-width: 100%;
+    margin-bottom: 0;
+    
+}
+.form-box-wrapper .sbmt-box input:hover{
+    opacity: 0.8;
+    background: #303091;
+}
+.input-box{
+    position: relative;
+}
+.input-box .icon-box{
+    position: absolute;
+    left: 0px;
+    top: 4px;
+}
+.input-box.num input{
+    padding-left: 8px;
+}
+.input-box .icon-box svg path{
+    fill: #303091;
+}

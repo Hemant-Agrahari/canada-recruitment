@@ -1,0 +1,123 @@
+.blog-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    border: 1px solid #ebf1f5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    transform: translateY(-5px);
+}
+
+.title-link {
+    text-decoration: none !important;
+}
+
+.blog-card-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #008ed5;
+    line-height: 1.3;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: color 0.3s ease;
+    font-family: 'Outfit', sans-serif;
+}
+
+.blog-card-title:hover {
+    color: #0056b3;
+}
+
+.blog-meta-row {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #888;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.views-badge {
+    background: #008ed5;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    font-size: 11px;
+}
+
+.meta-sep {
+    color: #eee;
+    margin: 0 2px;
+}
+
+.meta-text {
+    color: #888;
+}
+
+.blog-image-wrapper {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+}
+
+.blog-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blog-excerpt {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.7;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+.read-more-link {
+    display: inline-flex;
+    align-items: center;
+    color: #333;
+    font-weight: 700;
+    text-decoration: none !important;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.read-more-icon {
+    width: 22px;
+    height: 22px;
+    background: #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.read-more-link:hover {
+    color: #008ed5;
+}
+
+.read-more-link:hover .read-more-icon {
+    background: #008ed5;
+}

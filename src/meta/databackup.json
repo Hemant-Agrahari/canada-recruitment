@@ -1,0 +1,52 @@
+
+{
+    "breadcrumbTitle": "",
+    "views": "",
+    "date": "",
+    "authorName": "",
+    "bannerTitle": "",
+    "bannerImage": {
+        "alt": "",
+        "title": "",
+        "src": ""
+    },
+    "bannerDesp": "",
+    "description": "",
+    "content": [
+        {
+            "contentTitle": "h2",
+            "contentDescription": "",
+            "contentCtaButton": "",
+            "subContent": [
+                {
+                    "subContentTitle": "h3",
+                    "subContentDescription": "",
+                    "subContentCtaButton": ""
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "question": "Q",
+            "answer": "A"
+        }
+    ],
+    "author": {
+        "name": "",
+        "description": ""
+    },
+    "previousBlog": {
+        "title": "",
+        "link": ""
+    },
+    "nextBlog": {
+        "title": "",
+        "link": ""
+    },
+    "canonical": {
+        "ogImage": "",
+        "ogTitle": "",
+        "ogDescription": ""
+    }
+}

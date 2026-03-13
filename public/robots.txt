@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /tag/
+Disallow: /category/
+Disallow: /thank-you-franchise
+Sitemap: https://www.alliancerecruitmentagency.ca/sitemap.xml

@@ -1,0 +1,2 @@
+/**handles:map**/
+var $=jQuery.noConflict();$(".gmap").each(function(){var e,o=$(this).data("addresses"),a=new google.maps.Geocoder,t={zoom:8,center:new google.maps.LatLng(-34.397,150.644),mapTypeId:google.maps.MapTypeId.ROADMAP};for(e=new google.maps.Map(document.getElementById("map"),t),i=0;i<o.length;i++){var g=o[i],n=[];a.geocode({address:g},function(o,a){a==google.maps.GeocoderStatus.OK&&(e.setCenter(o[0].geometry.location),n.push(new google.maps.Marker({map:e,position:o[0].geometry.location,title:o[0].formatted_address})))})}});

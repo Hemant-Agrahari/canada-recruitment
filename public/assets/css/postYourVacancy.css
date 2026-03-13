@@ -1,0 +1,96 @@
+.nwpost-form-twentytwenty{
+    display: flex;
+    padding: 40px 0 30px 30px;
+    width: 877px;
+}
+.left-img-box{
+    width: 210px;
+    align-items: flex-end;
+    display: flex;
+    position: relative;
+    bottom: 20px;
+}
+.right-card-box{
+    position: relative;
+    width: 94%;
+    background: #3e4095;
+    padding: 30px 25px 40px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px #e0e0e0;
+}
+.rmv-lazy-load {
+    max-width: 100%;
+    height: auto;
+}
+.nwpost-form-twentytwenty .right-card-box .heading-txt {
+    margin: 0!important;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.nwpost-form-twentytwenty .right-card-box .p-smll-txt {
+    margin: 8px 0;
+    color: #fff;
+    font-size: 15px;
+    /* font-family: signika; */
+    line-height: 22px;
+    text-align: inherit;
+}
+.nwpost-form-twentytwenty .right-card-box .p-sub-txt {
+    margin: 5px 0 20px;
+    color: #fff;
+    /* font-family: signika; */
+    font-size: 17px;
+    font-weight: 500;
+    text-align: inherit;
+}
+
+.nwpost-form-twentytwenty .right-card-box .custom .custom-radio .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background: #e5e5e5;
+    background: linear-gradient(to right,#e5e5e5 0%,#fff 100%);
+    border-radius: 50%;
+    border: 1px solid #afafaf;
+    box-sizing: border-box;
+}
+
+.nwpost-form-twentytwenty .right-card-box .custom .custom-radio {
+    /* font-family: signika; */
+    background: 0 0;
+    height: auto;
+    line-height: normal;
+    display: block;
+    position: relative;
+    padding-left: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    overflow: visible;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.content {
+    position: relative;
+    clear: both;
+    max-width: 75%;
+    margin: 0 auto;
+    /* padding: 1px 0 40px; */
+}
+
+.sidebar {
+    float: right;
+    width: 22%;
+    max-width: 220px;
+    list-style: none;
+}
