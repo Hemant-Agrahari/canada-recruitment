@@ -58,7 +58,7 @@ export const SlickSlider2 = () => {
 
     return (
         <section className="client-slider">
-            <div className="container-fluid">
+            <div className="container-fluid" style={{ minHeight: '130px' }}>
                 <Slider className='company-slider' {...settings}>
                     <div className="slider-item"  >
                         <Image src="/assets/images/client-slider/havmor.png"  width={209} height={90}   alt="" />

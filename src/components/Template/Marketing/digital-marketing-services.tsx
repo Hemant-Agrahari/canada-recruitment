@@ -730,36 +730,19 @@ const DigitalMarketingServices = ({
               </div>
             </div>
             <div className="col-lg-6 text-center order-1-991">
-              <picture>
-                <source
-                  srcSet={
-                    result?.bannerImage
-                      ? `${NEXT_PUBLIC_BACKEND_URL}${result?.bannerImage}`
-                      : "/assets/images/digital-marketing-services.webp"
-                  }
-                  type="image/webp"
-                />
-                <source
-                  srcSet={
-                    result?.bannerImage
-                      ? `${NEXT_PUBLIC_BACKEND_URL}${result?.bannerImage}`
-                      : "/assets/images/digital-marketing-services.png"
-                  }
-                  type="image/png"
-                />
-                <Image
-                  src={
-                    result?.bannerImage
-                      ? `${NEXT_PUBLIC_BACKEND_URL}${result?.bannerImage}`
-                      : "/assets/images/digital-marketing-services.webp"
-                  }
-                  alt={result?.bannerImageName || "digital marketing"}
-                  title={result?.bannerImageName || "digital marketing"}
-                  width="627"
-                  height="504"
-                  className="img-fluid mx-auto"
-                />
-              </picture>
+              <Image
+                src={
+                  result?.bannerImage
+                    ? `${NEXT_PUBLIC_BACKEND_URL}${result?.bannerImage}`
+                    : "/assets/images/digital-marketing-services.webp"
+                }
+                alt={result?.bannerImageName || "digital marketing"}
+                title={result?.bannerImageName || "digital marketing"}
+                width={627}
+                height={504}
+                className="img-fluid mx-auto"
+                priority
+              />
             </div>
           </div>
         </div>
