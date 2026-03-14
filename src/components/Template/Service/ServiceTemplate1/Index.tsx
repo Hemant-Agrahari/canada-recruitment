@@ -60,11 +60,12 @@ const ServiceTemplate1: React.FC<ServiceTemplate1> = ({
             {/* Banner Section start */}
 
             <section
-              // className=" pad-60"
               style={{
                 position: "relative",
                 zIndex: 1,
-                height: "clamp(200px,25vw,400px)",
+                height: "clamp(350px, 40vw, 550px)",
+                minHeight: "400px", /* Min height for mobile */
+                backgroundColor: "#f0f0f0",
               }}
             >
               <div
@@ -79,12 +80,11 @@ const ServiceTemplate1: React.FC<ServiceTemplate1> = ({
               />
               <Image
                 src={`${process.env.NEXT_PUBLIC_BACKEND_URL}/${data.bannerImage}`}
-                alt={data?.imageAlt || "test"}
-                title={data?.imageTitle || "test"}
-                // style={{ objectFit: "cover", objectPosition: "top", zIndex: -1 }}
+                alt={data?.imageAlt || "Banner Background"}
+                title={data?.imageTitle || "Banner Background"}
                 fill
-                fetchPriority="high"
                 priority
+                quality={75}
                 className="object-cover object-top"
                 sizes="100vw"
               />{" "}

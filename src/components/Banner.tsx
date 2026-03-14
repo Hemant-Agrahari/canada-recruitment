@@ -45,7 +45,7 @@ const Banner: React.FC<BannerProps> = memo(
               alt={alt || "Banner Background"}
               fill
               priority
-              quality={90}
+              quality={75}
             />
           </div>
 
@@ -158,8 +158,16 @@ const Banner: React.FC<BannerProps> = memo(
           .main-banner {
             position: relative;
             width: 100%;
-            height: 100%; /* Full height of the viewport */
+            height: clamp(350px, 40vw, 550px); /* Stable height for better CLS */
             overflow: hidden;
+            background-color: #f0f0f0; /* Placeholder background */
+          }
+
+          @media (max-width: 767px) {
+            .main-banner {
+              height: auto;
+              min-height: 400px;
+            }
           }
 
           .background-image-container {

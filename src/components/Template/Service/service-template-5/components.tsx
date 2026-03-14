@@ -555,14 +555,14 @@ export const ServicesBanner = ({
   ];
 
   return (
-    <section className="main-banner">
+    <section className="main-banner" style={{ height: "clamp(350px, 40vw, 550px)", position: "relative", overflow: "hidden" }}>
       <div className="background-image-container" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", zIndex: -1 }}>
         <Image
           src={backgroundImage}
           alt={title || "Banner Background"}
           fill
           priority
-          quality={90}
+          quality={75}
           className="object-cover"
         />
       </div>
