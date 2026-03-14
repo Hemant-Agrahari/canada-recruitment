@@ -14,6 +14,10 @@ export default function Document() {
               })(window,document,'script','dataLayer','GTM-W4SGHZMC');`,
           }}
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://cmsapi.alliancerecruitmentagency.ca" crossOrigin="anonymous" />
         <meta name="google-site-verification" content="2aAsA8rDwWuXst4-7wL1d9ju9Orle1SBNO0d8joDN24" />
         <meta name="yandex-verification" content="3263f913e4e4e3c8" />
       </Head>

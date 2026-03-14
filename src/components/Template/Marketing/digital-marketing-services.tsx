@@ -63,7 +63,7 @@ const DigitalMarketingServices = ({
           </span>
         </div>
       </div>
-      <section className="main-banner">
+      <section className="main-banner hero-banner">
         <div className="container">
           <div className="row g-4">
             <div className="col-lg-6 align-self-center me-auto order-2-991">
@@ -114,8 +114,7 @@ const DigitalMarketingServices = ({
                 height={504}
                 className="img-fluid mx-auto"
                 priority
-                fetchPriority="high"
-                sizes="(max-width: 768px) 100vw, 50vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 627px"
               />
             </div>
           </div>
@@ -124,9 +123,9 @@ const DigitalMarketingServices = ({
       <section className="brand-slider-section">
         <div className="container">
           <h2 className="com-title text-center mb-2">Who's Hiring With Us</h2>
+          <SlickSlider2 />
         </div>
       </section>
-      <SlickSlider2 />
       <WhyChooseUs content={result?.content || []} NEXT_PUBLIC_BACKEND_URL={NEXT_PUBLIC_BACKEND_URL} />
       {result?.content && Array.isArray(result.content) && result.content.length > 0 && (
         <RecruitmentJourneySection
@@ -243,7 +242,6 @@ const DigitalMarketingServices = ({
       }
 
       <Head>
-        <link rel="preconnect" href="https://cmsapi.alliancerecruitmentagency.ca" crossOrigin="anonymous" />
         <meta name="theme-color" content="#ffffff" />
         <meta property="og:type" content="article" />
         {result?.bannerImage && (

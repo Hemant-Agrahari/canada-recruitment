@@ -33,41 +33,49 @@ import "../../public/assets/css/welcome-modal.css";
 import ScrollToTop from "@/components/scrolltotop";
 import Script from "next/script";
 
+import { Epilogue } from 'next/font/google';
+
+const epilogue = Epilogue({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '500', '600', '700'],
+});
+
 // Fix: Directly apply Verdana in global styles (system font)
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      {/* Apply the font to the body directly in global styles */}
-      <style jsx global>{`
+      <div className={epilogue.className}>
+        <style jsx global>{`
         body {
-          font-family: 'Epilogue', sans-serif; /* Apply Verdana with fallback to sans-serif */
           margin: 0;
           padding: 0;
         }
       `}</style>
 
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-      <ScrollToTop />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+        <ScrollToTop />
 
-      {/* <Script
+        {/* <Script
         strategy="lazyOnload"
         type="text/javascript/"
         src="../assets/scripts/jQuery.js"
         async
       /> */}
-      <Script
-        strategy="afterInteractive"
-        src="../assets/scripts/bootstrap5.js"
-        async
-      />
-      {/* Optional: Uncomment if you need to load Owl Carousel JS */}
-      {/* <Script
+        <Script
+          strategy="afterInteractive"
+          src="../assets/scripts/bootstrap5.js"
+          async
+        />
+        {/* Optional: Uncomment if you need to load Owl Carousel JS */}
+        {/* <Script
         strategy="lazyOnload"
         src="../assets/scripts/owl.carousel.min.js"
         async
       /> */}
+      </div>
     </>
   );
 }

@@ -71,10 +71,18 @@
   line-height: 1.4;
 }
 
+.main-banner.hero-banner {
+  padding: 80px 0;
+  background-color: #fff;
+  min-height: clamp(500px, 60vh, 850px);
+  display: flex;
+  align-items: center;
+}
+
+/* Base main-banner for other sections */
 .main-banner {
   padding: 70px 0;
   background-color: #fff;
-  min-height: clamp(300px, 45vw, 650px);
 }
 
 .main-banner h1 {
@@ -186,6 +194,11 @@
 .scroll-text-section .main-text {
   text-align: center;
   padding: 20px;
+}
+
+.brand-slider-section {
+  padding-top: 50px;
+  min-height: 250px;
 }
 
 .scroll-text-section .black-text {
