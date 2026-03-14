@@ -58,9 +58,10 @@ export const SlickSlider2 = () => {
 
     return (
         <section className="client-slider">
-            <div className="container-fluid" style={{ minHeight: '130px' }}>
-                <Slider className='company-slider' {...settings}>
-                    <div className="slider-item"  >
+            <div className="container-fluid">
+                <div style={{ minHeight: '130px', overflow: 'hidden' }}>
+                    <Slider className='company-slider' {...settings}>
+                        <div className="slider-item"  >
                         <Image src="/assets/images/client-slider/havmor.png"  width={209} height={90}   alt="" />
                     </div>
                     <div className="slider-item"  >
@@ -143,6 +144,7 @@ export const SlickSlider2 = () => {
                         <Image src="/assets/images/client-slider/vekaria.png" width={209} height={90} alt="" />
                     </div>
                 </Slider>
+                </div>
 
             </div>
         </section>

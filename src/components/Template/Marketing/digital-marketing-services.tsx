@@ -1,5 +1,7 @@
 import Image from "next/image";
-import { SlickSlider2 } from "@/components/Slider/OwlCarouselSlider";
+const SlickSlider2 = dynamic(() => import("@/components/Slider/OwlCarouselSlider").then((mod) => mod.SlickSlider2), {
+  ssr: true,
+});
 import dynamic from "next/dynamic";
 import React, { useCallback, useEffect, useState, useRef } from "react";
 import meta from "../../../meta/meta.json";
@@ -742,6 +744,7 @@ const DigitalMarketingServices = ({
                 height={504}
                 className="img-fluid mx-auto"
                 priority
+                fetchPriority="high"
               />
             </div>
           </div>

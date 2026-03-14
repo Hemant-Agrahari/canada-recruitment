@@ -71,10 +71,10 @@
   line-height: 1.4;
 }
 
-/* Main Banner Section */
 .main-banner {
   padding: 70px 0;
   background-color: #fff;
+  min-height: clamp(300px, 45vw, 650px);
 }
 
 .main-banner h1 {
