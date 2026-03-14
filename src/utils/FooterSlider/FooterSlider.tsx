@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import dynamic from 'next/dynamic';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import { useRouter } from 'next/router';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 // Define an interface for the slider data
@@ -32,32 +34,40 @@ const footerSliderData: { en: SliderItem[]; ar: SliderItem[] } = {
   ],
 };
 export const FooterSlider: React.FC = () => {
-  const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-    ssr: false,
-  });
   const options = {
-    loop: true,
-    margin: 11,
-    autoplay: false,
-    nav: true,
-    navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"], // Customize navigation text/icons
-    autoplayTimeout: 5000,
-    autoplaySpeed: 1000,
     dots: false,
-    responsive: {
-      0: {
-        items: 3, // Number of items for screens less than 600 pixels wide
+    infinite: true,
+    speed: 500,
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: false,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 6,
+        }
       },
-      600: {
-        items: 5, // Number of items for screens between 600 and 992 pixels wide
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 6,
+        }
       },
-      992: {
-        items: 6, // Number of items for screens between 992 and 1200 pixels wide
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 5,
+        }
       },
-      1200: {
-        items: 6, // Number of items for screens 1200 pixels wide and above
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 3,
+        }
       }
-    }
+    ]
   };
 
   const [renderCarousel, setRenderCarousel] = useState(false);
@@ -75,7 +85,7 @@ export const FooterSlider: React.FC = () => {
       <section className="footer-slider py-10">
         <div className="carousel-container">
           {renderCarousel && (
-            <OwlCarousel {...options}>
+            <Slider {...options}>
               {selectedLanguage.map((item, index) => (
                 <div className="item" key={index}>
                   <Link className="marker-hover" href={item.url}>
@@ -83,7 +93,7 @@ export const FooterSlider: React.FC = () => {
                   </Link>
                 </div>
               ))}
-            </OwlCarousel>
+            </Slider>
           )}
         </div>
       </section>

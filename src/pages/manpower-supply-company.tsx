@@ -8,9 +8,9 @@ import * as Yup from 'yup';
 import { useFormik } from "formik";
 import dynamic from "next/dynamic";
 import CustomHead from "@/components/Head";
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-   ssr: false,
-});
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 const validationSchema = Yup.object().shape({
    username: Yup.string().required('Name is required'),
    email: Yup.string().email('Invalid email').required('Email is required'),
@@ -32,28 +32,34 @@ const LandingPage = () => {
    const [isModalVisible, setIsModalVisible] = useState<boolean>(false);
    const [shouldRenderComponent, setShouldRenderComponent] = useState(true);
    const options = {
+      dots: false,
       infinite: true,
-      items: 3,
-      loop: true,
-      margin: 20,
-      nav: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      arrows: true,
+      autoplay: true,
       autoplaySpeed: 3000,
-      navText: ['<svg width="70%" height="70%" viewBox="0 0 11 20"><path style="fill:none;stroke-width: 2px;stroke: #3B71FE;" d="M9.554,1.001l-8.607,8.607l8.607,8.606"/></svg>', '<svg width="70%" height="70%" viewBox="0 0 11 20" version="1.1"><path style="fill:none;stroke-width: 2px;stroke: #3B71FE;" d="M1.054,18.214l8.606,-8.606l-8.606,-8.607"/></svg>'],
-      responsive: {
-         0: {
-            items: 1, // Number of items for screens less than 600 pixels wide
+      responsive: [
+         {
+            breakpoint: 1200,
+            settings: {
+               slidesToShow: 3,
+            }
          },
-         600: {
-            items: 2, // Number of items for screens between 600 and 992 pixels wide
+         {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 2,
+            }
          },
-         992: {
-            items: 2, // Number of items for screens between 992 and 1200 pixels wide
-         },
-         1200: {
-            items: 3, // Number of items for screens 1200 pixels wide and above
+         {
+            breakpoint: 600,
+            settings: {
+               slidesToShow: 1,
+            }
          }
-      }
-
+      ]
    };
    const handleClose = () => {
       setShow(false)
@@ -219,7 +225,7 @@ const LandingPage = () => {
                <h2 className="com-title">Testimonials</h2>
                <div className="container">
                   <div className="row">
-                     <OwlCarousel {...options}>
+                     <Slider {...options}>
                         {/* <div className="landing owl-carousel owl-theme"> */}
                         <div className="item">
                            <div className="item-content">
@@ -365,7 +371,7 @@ const LandingPage = () => {
                            </div>
                         </div>
                         {/* </div> */}
-                     </OwlCarousel>
+                     </Slider>
                   </div>
                </div>
             </section>

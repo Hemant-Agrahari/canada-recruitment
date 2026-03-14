@@ -1,21 +1,17 @@
 import React from 'react';
-import dynamic from 'next/dynamic';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 const MilestoneSlider: React.FC = () => {
-  const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-    ssr: false,
-  });
-
   const singleSliderOptions = {
-    loop: false,
-    margin: 0,
-    items: 1,
-    // autoplay: true,
-    // autoplayTimeout: 5000,
-    // autoplaySpeed: 1500,
-    nav: true,
-    navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"], // Customize navigation text/icons
     dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay: false,
   };
   return (
     <>
@@ -23,7 +19,7 @@ const MilestoneSlider: React.FC = () => {
         <div className="container">
 
           <h2 className="com-title">Our Milestone</h2>
-          <OwlCarousel className=" owl-theme" {...singleSliderOptions}>
+          <Slider className="milestone-slider" {...singleSliderOptions}>
             <div className="item">
               <Image
                 width={500} height={300}
@@ -47,7 +43,7 @@ const MilestoneSlider: React.FC = () => {
               />
             </div>
 
-          </OwlCarousel>
+          </Slider>
         </div>
       </section>
     </>

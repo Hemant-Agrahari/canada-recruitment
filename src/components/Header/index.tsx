@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { headerData } from "./headerData";
 import { ContactPhoneList } from "./ContactPhoneList";
 import { SocialMediaLinks } from "./SocialMediaLinks";
@@ -103,8 +104,7 @@ const Header = () => {
               onClick={handleMenuIconClick}
               className="menu-icon ms-auto"
             >
-              <i className="fas fa-bars"></i>
-              <i className="fas fa-times"></i>
+              {isMobileMenuActive ? <FaTimes /> : <FaBars />}
             </Link>
           </div>
         </div>

@@ -8,24 +8,50 @@ import Image from 'next/image';
 //    window.$ = window.jQuery = $;
 // }
 
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-    ssr: false,
-});
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 export const CertificateSlider: React.FC = () => {
     const options = {
-        loop: true,
-        margin: 10,
-        items: 6,
-        autoplay: true,
-        autoplayTimeout: 5000, autoplaySpeed: 1000,
-        nav: true,
-        navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"], // Customize navigation text/icons
         dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 6,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 4,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
     };
     return (
         <>
-            <OwlCarousel className="our-certifications owl-theme" {...options}>
+            <Slider className="our-certifications" {...options}>
                 <div className="item">
                     <Image
                         width={1000} height={1000}
@@ -140,7 +166,7 @@ export const CertificateSlider: React.FC = () => {
 
                 </div>
 
-            </OwlCarousel>
+            </Slider>
         </>
     )
 };
