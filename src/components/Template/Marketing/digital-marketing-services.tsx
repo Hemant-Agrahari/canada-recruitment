@@ -4,13 +4,11 @@ const SlickSlider2 = dynamic(() => import("@/components/Slider/OwlCarouselSlider
 });
 import dynamic from "next/dynamic";
 import { useState } from "react";
-// import CustomHead from "../../Head"; // Commented out to prevent duplicate canonical tags - handled by parent page
 import Link from "next/link";
 import {
   MarketingTemplateFormData,
 } from "../../../utils/interfaces";
 import { getRandomRatingValue, getRandomReviewCount } from "../../../helper/functions";
-// import { generateDynamicMeta } from "../../../meta/DynamicMeta"; // Commented out to prevent duplicate canonical tags - handled by parent page
 import { dynamicMetaProductScript } from "../../../meta/metaScript";
 import Head from "next/head";
 import RecruitmentJourneySection from "./RecruitmentJourneySection";
@@ -23,20 +21,16 @@ const BlogContactForm = dynamic(() => import("@/components/forms/BlogContactForm
 });
 const WhyChooseUs = dynamic(() => import("./WhyChooseUs"), { ssr: true });
 const MarketingServices = dynamic(() => import("./MarketingServices"), { ssr: true });
-const MarketingAwards = dynamic(() => import("./MarketingAwards"), { ssr: true });
 const MarketingFaq = dynamic(() => import("./MarketingFaq"), { ssr: true });
-
-// Load heavy carousel components only on client side
 const MarketingSuccessStories = dynamic(() => import("./MarketingSuccessStories"), { ssr: false });
 const MarketingReviews = dynamic(() => import("./MarketingReviews"), { ssr: false });
-const MarketingStats = dynamic(() => import("./MarketingStats"), { ssr: true });
+import MarketingStats from "./MarketingStats";
+import MarketingAwards from "./MarketingAwards";
 
 const ContactFormModal = dynamic(() => import("@/components/forms/ContactFormModal"), {
   ssr: false,
 });
 const NEXT_PUBLIC_BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
-
-// Form Validation Schema
 
 
 const DigitalMarketingServices = ({
@@ -69,7 +63,6 @@ const DigitalMarketingServices = ({
           </span>
         </div>
       </div>
-      {/* Main Banner Start From Here  */}
       <section className="main-banner">
         <div className="container">
           <div className="row g-4">
@@ -128,18 +121,12 @@ const DigitalMarketingServices = ({
           </div>
         </div>
       </section>
-      {/* Main Banner End Here  */}
-
-      {/* Brand Slider Start From Here  */}
       <section className="brand-slider-section">
         <div className="container">
           <h2 className="com-title text-center mb-2">Who's Hiring With Us</h2>
         </div>
       </section>
       <SlickSlider2 />
-      {/* Brand Slider End Here  */}
-
-      {/* Why Choose Use Section Start From Here */}
       <WhyChooseUs content={result?.content || []} NEXT_PUBLIC_BACKEND_URL={NEXT_PUBLIC_BACKEND_URL} />
       {result?.content && Array.isArray(result.content) && result.content.length > 0 && (
         <RecruitmentJourneySection
@@ -148,35 +135,14 @@ const DigitalMarketingServices = ({
           setFormId={setCurrentFormId}
         />
       )}
-      {/* Why Choose Use Section End Here */}
 
-      {/* Stats Section Start From Here  */}
       <MarketingStats />
-      {/* Stats Section End Here  */}
-
-      {/* Service Section Start From Here  */}
       <MarketingServices cardSection={result?.cardSection || { title: "", content: "" }} card={result?.card || []} NEXT_PUBLIC_BACKEND_URL={NEXT_PUBLIC_BACKEND_URL} />
-      {/* Service Section End Here  */}
-
-      {/* Awards Section Start From Here  */}
       <MarketingAwards />
-      {/* Awards Section End Here  */}
-
-      {/* Our Success Story Section Start From Here  */}
       <MarketingSuccessStories successStory={result?.successStory || []} NEXT_PUBLIC_BACKEND_URL={NEXT_PUBLIC_BACKEND_URL} />
-      {/* Our Success Story Section End Here  */}
-      {/* Review Section Start From Here  */}
       <MarketingReviews />
-      {/* Review Section End Here  */}
-
-      {/* Faq Section Start From Here  */}
       <MarketingFaq faq={result?.faq || []} />
-      {/* Faq Section End Here  */}
-
-      {/* Contact Form Section Start From Here  */}
       <ServiceContactForm id="servicepage-footer-form" />
-      {/* Contact Form Section End Here  */}
-
       {isModalOpen && (
         <div
           className="modal-overlay blog-contact-form-modal"
@@ -238,7 +204,6 @@ const DigitalMarketingServices = ({
         </div>
       )}
 
-      {/* Blog Contact Form Modal */}
       {
         isCTAModalOpen && (
           <div
@@ -278,7 +243,8 @@ const DigitalMarketingServices = ({
       }
 
       <Head>
-        {/* OpenGraph Meta Tags for Service Pages */}
+        <link rel="preconnect" href="https://cmsapi.alliancerecruitmentagency.ca" crossOrigin="anonymous" />
+        <meta name="theme-color" content="#ffffff" />
         <meta property="og:type" content="article" />
         {result?.bannerImage && (
           <>
