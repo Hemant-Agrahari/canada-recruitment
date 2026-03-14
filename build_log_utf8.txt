@@ -1,0 +1,68 @@
+﻿
+> alliance-recruiting-agency@0.1.1 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+
+  Running TypeScript ...
+  Creating an optimized production build ...
+node.exe : 
+At C:\Program 
+Files\nodejs\npm.ps1:29 
+char:3
++   & $NODE_EXE $NPM_CLI_JS 
+$args
++   
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          
+: NotSpe    cified: 
+(:String) [], RemoteExce    
+ption
+    + FullyQualifiedErrorId 
+: Native    CommandError
+ 
+> Build error occurred
+Error: Turbopack build 
+failed with 1 errors:
+./src/components/Template/Mar
+keting/digital-marketing-serv
+ices.tsx
+Failed to compile
+    Global CSS cannot be 
+imported from files other 
+than your Custom <App>. Due 
+to the Global nature of 
+stylesheets, and to avoid 
+conflicts, Please move all 
+first-party global CSS 
+imports to pages/_app.js. Or 
+convert the import to 
+Component-Level CSS (CSS 
+Modules).
+    Read more: https://nextjs
+.org/docs/messages/css-global
+Location: src/components/Temp
+late/Marketing/digital-market
+ing-services.tsx
+Import path: ../../../styles/
+digital-marketing-services.cs
+s
+
+Import traces:
+  Browser:
+    ./src/components/Template
+/Marketing/digital-marketing-
+services.tsx
+    ./src/pages/[page]/[[...s
+lug]].tsx
+
+  SSR:
+    ./src/components/Template
+/Marketing/digital-marketing-
+services.tsx
+    ./src/pages/[page]/[[...s
+lug]].tsx
+
+
+    at ignore-listed frames

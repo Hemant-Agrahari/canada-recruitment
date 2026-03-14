@@ -2,34 +2,26 @@ import React from "react";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-  ssr: false,
-});
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const MarketingReviews = () => {
-  const options = {
-    loop: false,
-    margin: 100,
-    autoplay: false,
-    nav: true,
-    navText: ["<i class='left-arrow'></i>", "<i class='right-arrow'></i>"],
-    autoplayTimeout: 5000,
-    autoplaySpeed: 1000,
+  const settings = {
     dots: false,
-    responsive: {
-      0: {
-        items: 1,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+        },
       },
-      600: {
-        items: 1,
-      },
-      992: {
-        items: 2,
-      },
-      1200: {
-        items: 2,
-      },
-    },
+    ],
   };
 
   return (
@@ -44,7 +36,7 @@ const MarketingReviews = () => {
             in the feedbacks given by our clients.
           </p>
           <div className="review-slider">
-            <OwlCarousel {...options}>
+            <Slider {...settings}>
               <div className="review-box">
                 <p className="review-text">
                   The whole process of working with Alliance was really
@@ -133,7 +125,7 @@ const MarketingReviews = () => {
                   </div>
                 </div>
               </div>
-            </OwlCarousel>
+            </Slider>
           </div>
         </div>
       </div>

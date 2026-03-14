@@ -4,10 +4,9 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { SuccessStory } from "@/utils/interfaces"; 
 
-// Dynamically import OwlCarousel
-const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
-  ssr: false,
-});
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 interface MarketingSuccessStoriesProps {
   successStory: SuccessStory[];
@@ -22,26 +21,22 @@ const MarketingSuccessStories = ({
     return null;
   }
 
-  const options2 = {
-    infinite: false,
-    items: 1,
-    loop: false,
-    nav: true,
-    margin: 20,
+  const settings = {
     dots: false,
-    navText: [
-      "<Image src='/assets/review-left.svg' >",
-      "<Image src='/assets/review-right.svg' >",
-    ], // Customize navigation text/icons
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
   };
 
   return (
     <section className="our-success-story">
       <div className="container">
         <h2 className="com-title mb-0">Client Success Stories</h2>
-        <OwlCarousel {...options2}>
+        <Slider {...settings}>
           {successStory.map((story, index) => (
-            <div className="" key={index}>
+            <div className="item" key={index}>
               <div className="our-success-story-content">
                 <div className="row flex-row-reverse">
                   <div className="col-lg-6 align-self-center">
@@ -96,7 +91,7 @@ const MarketingSuccessStories = ({
               </div>
             </div>
           ))}
-        </OwlCarousel>
+        </Slider>
       </div>
     </section>
   );

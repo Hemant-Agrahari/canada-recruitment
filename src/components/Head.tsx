@@ -145,6 +145,9 @@ const CustomHead: React.FC<CustomHeadProps> = ({
       <link rel="profile" href="https://gmpg.org/xfn/11" />
       <link rel="preconnect" href="https://allianceae-10072.kxcdn.com" />
       <link rel='dns-prefetch' href='//www.googletagmanager.com' />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+      <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap" rel="stylesheet" />
       <link rel="preconnect" href="https://www.google-analytics.com" />
       <link
         rel="icon"
